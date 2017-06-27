@@ -13,8 +13,8 @@ BlogPosts.create(
   "Dick Tracy"
   );
 BlogPosts.create(
-  "How to win at Texas Hold-em",
-  "Ignore the other players and always go all-in",
+  "White House Poker: How to win at Texas Hold-em",
+  "Ignore the other players and always go all-in for FAKE NEWS",
   "Sean Spicer"
   );
 
