@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: OQIpp3VazL1ayM845zoBj9Ui/rGg9+yhObNn7DyiBWvqLNoUV08NWqebDd6XPjsANKaGsXGOC5tuQ+DX1QDrPvKFGgo4WrbtCsCkLSPTNw/D5QS1pEeIdEFm4A6G8IO4su8HHioVXD6uENLhJ9D76ayvEEG5m0ai+CTlnwC/WXBbOgEtJoP4w5FgTCynPgl42BY0g8LBmnGnFuFf6AiPSLY0jvf1A9iaRmgSFxAtksNAJpY/T4j4hCxDWBju+FdyUChh+/EFgnXyaD+rNiYx/HcVsqKOdlTWyfHMpGi4hCyJKFVIfv1HZZiPuH6CUB6YZ95tYgK8E+fClsIEy1n2eFRfIynelngH/L10BPGGRseH5GgDTTP1ZTxmIQQBsh1HadFENguedXd4w+xm/qh1JkJ1rYSogpxKnVqA85/bwXOsa18tvLykx+lwm3UAF3F79zB/lkFLNBZHAngXe51zkLtaOm/pgwYIETDpX3cKW825XgWptzuswGD9H7qjgyo2LpJsk7pl7qmpCvZ2EXDZXu/56zply4TVAyITSnZzt14SOThSekO+ZbdfNLxa7NRlOArYAmYdPwL9adxW3ZslyHKob0RzceAYmGc+BhZnnT2/7QyJwxrACGfyrJ6ZW+BJhNc2rLWrFgv5zQ64wpgHVmuwMVy/NACduhq8rTKn6lg=
+  app: aqueous-reaches-98197
+  on:
+    repo: BakerStudio/blog
